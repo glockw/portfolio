@@ -26,12 +26,13 @@ body {
   }
   li {
     display: inline;
-    padding: 15px 30px;
   }
   
   li a {
     text-decoration: none;
     color: white;
+    height: 100%;
+    padding: 15px 30px;
     font-family: monoscape, Arial;
     font-weight: bold;
   }
@@ -46,9 +47,10 @@ body {
     font-family:Ralewey;
   }
   
-  li:hover {
+  
+  li a:hover {
     background-color: #8f118b;
-    padding: 16px 30px;
+    padding: 17px 30px;
   }
   #welcome-section {
     background: linear-gradient(62deg, rgb(104, 104, 104), #505050, #404040);
